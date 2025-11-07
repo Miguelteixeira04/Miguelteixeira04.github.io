@@ -12,7 +12,6 @@ master's student. Features dynamic project loading from GitHub, smooth animation
 
 ## 💡Notes
 * A vertical elevator on the left indicates the current section and allows smooth navigation between sections;
-* The video was published on YouTube and is also available in the Documents folder;
 * A PDF version of my portfolio is available for download on the homepage;
 * Projects are dynamically loaded from my personal repository.
 
