@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Teixeira</title>
+    <link rel="stylesheet" href="portolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand"><a href="#" id="brandLink">Miguel Teixeira</a></div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Web Developer & Technology Enthusiast</p>
+                <h1 class="hero-title">
+                    Hello, I'm <span class="highlight">Miguel Teixeira</span>
+                </h1>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary"> Portfolio <i class="fa-solid fa-arrow-down download-icon" style="margin-left: 10px;"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">My Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1"></div>
+                <div class="floating-card card-2"></div>
+                <div class="floating-card card-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Dive in. Each project takes you straight to my GitHub!</p>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="html-js">HTML/CSS & JavaScript</button>
+                <button class="filter-btn" data-filter="csharp-cpp">C# & C++</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+
+            <div id="projectsGrid" class="projects-grid">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading projects...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-block">
+            <div class="about-text-left">
+                <p>
+                    I hold a Bachelor's degree in Software Engineering from the
+                    <strong>Universidade de Trás-os-Montes e Alto Douro (UTAD)</strong>.
+                    There, I acquired the fundamental programming skills that have shaped my knowledge
+                    and that I will carry throughout my career. During this period, I made great friends
+                    that I want to keep for life. Then, due to my work and dedication, I was invited to join the
+                    <strong>HCILab</strong> at UTAD, where we developed a project entitled <em>BartleZ</em>,
+                    which successfully led to the publication of two scientific papers.
+                </p>
+            </div>
+                <div class="about-image-right">
+                    <img id="utadImage" src="/Photos/utad.jpg" alt="UTAD" class="about-img">
+                </div>
+            </div>
+
+            <div class="publications-center">
+                <a href="https://dl.acm.org/doi/10.1145/3696593.3696646" target="_blank" class="pub-link">
+                    <i class="fa-solid fa-1"></i>
+                    <i class="fa-solid fa-book-open"></i> BartleZ (ACM Digital Library Article)
+                </a>
+                <a href="https://doi.org/10.1007/978-3-032-10518-9_1" target="_blank" class="pub-link">
+                    <i class="fa-solid fa-2"></i>
+                    <i class="fa-solid fa-book-open"></i> BartleZ (SpringerLink Article)
+                </a>
+            </div>
+            <div class="about-block">
+                <div class="about-image-left">
+                    <img src="/Photos/dei.jpg" alt="FCTUC" class="about-img">
+                </div>
+                <div class="about-text-right">
+                    <p>
+                        I'm currently pursuing a Master's degree in Design and Multimedia at the
+                        <strong>Faculdade de Ciências e Tecnologia da Universidade de Coimbra (FCTUC)</strong>,
+                        where I expand my skills at the intersection of design and technology. My passion lies in 
+                        crafting meaningful, user-centered digital experiences that balance aesthetics, functionality, 
+                        and innovation. I enjoy exploring emerging technologies and transforming complex ideas into clear, 
+                        engaging, and intuitive web solutions. What drives me most is turning concepts into digital experiences 
+                        that feel natural, purposeful, and enjoyable to use.
+                    </p>
+                </div>
+            </div>
+            <div class="skills">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">C/C++/C#</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Microsoft SQLServer</span>
+            <span class="skill-tag">Adobe PhotoShop</span>
+            <span class="skill-tag">Adobe Indesign</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-links">
+                <a href="https://github.com/Miguelteixeira04" target="_blank" class="contact-card">
+                    <i class="fab fa-github fa-2x"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:miguelrteixeira04@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/miguel-teixeira-208b33266/" class="contact-card">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="section-indicator" aria-hidden="false">
+        <div class="caret-top" aria-hidden="true">^</div>
+        <nav class="indicator-nav" aria-label="Section indicator">
+            <a href="#home" class="indicator-link active" data-section="home" title="Home"><span class="dot-ball"></span></a>
+            <a href="#projects" class="indicator-link" data-section="projects" title="Projects"><span class="dot-ball"></span></a>
+            <a href="#about" class="indicator-link" data-section="about" title="About"><span class="dot-ball"></span></a>
+            <a href="#contact" class="indicator-link" data-section="contact" title="Contact"><span class="dot-ball"></span></a>
+        </nav>
+        <div class="caret-bottom" aria-hidden="true">v</div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Miguel Teixeira. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="portolio.js"></script>
+</body>
+</html>
