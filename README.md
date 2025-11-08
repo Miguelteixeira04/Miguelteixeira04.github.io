@@ -5,15 +5,16 @@ A modern, responsive portfolio website showcasing my journey as a Software Engin
 master's student. Features dynamic project loading from GitHub, smooth animations, and an intuitive user experience.
 
 ## Features:
-* Dynamic project loading from GitHub with programming language filtering;
+* Dynamic loading of projects from GitHub with filtering by programming language;
 * Fully responsive design with smooth animations and interactive elements;
 * Academic publications showcase and direct contact links;
 * A brief talk about my background during my degree.
 
 ## 💡Notes
-* A vertical elevator on the left indicates the current section and allows smooth navigation between sections;
-* A PDF version of my portfolio is available for download on the homepage;
-* Projects are dynamically loaded from my personal repository.
+* On the left, a vertical elevator shows which section you are in and enables smooth navigation across sections;
+* The video was published on YouTube and is also available in the Documents folder;
+* The projects are dynamically loaded from my personal repository;
+* My portfolio can be downloaded as a PDF from the homepage.
 
 
 ## 🌐Links
