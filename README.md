@@ -21,5 +21,6 @@ master's student. Features dynamic project loading from GitHub, smooth animation
 | Item       	    | Link                         	            |   	
 |-------------------|-------------------------------------------|	
 | Enter Website     | https://miguelteixeira04.github.io/    	|   	
-| Repository (LEI)  | https://github.com/Miguelteixeira04/LEI   |
+| Repository (source)  | https://github.com/Miguelteixeira04/LEI   |
+| Repository (website)  | https://github.com/Miguelteixeira04/Miguelteixeira04.github.io   |
 | Video             | https://youtu.be/WiSwQuMD1r4   	        |
